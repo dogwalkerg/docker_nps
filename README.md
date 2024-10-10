@@ -13,6 +13,8 @@ docker pull ffdfgdfg/nps
 
 启动：docker run -d --name nps --net=host -v <本机conf目录>:/conf ffdfgdfg/nps
 
+启动：docker run -d --name nps --net=host -v <本机conf目录>:/conf ghcr.io/dogwalkerg/docker_nps/nps:latest
+
 请确保为conf文件夹
 
 查看日志docker logs nps
